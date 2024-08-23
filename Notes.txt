@@ -1,0 +1,35 @@
+# Redux Toolkit
+
+
+1. what is Redux Toolkit?
+
+Ans.  Redux Toolkit is a set of tools for working with Redux. It provides a simple and easy-to-use
+API for managing state in a Redux application. It includes several features such as
+createStore, createReducer, createSlice, and more.
+
+2. Redux and React-redux are two different things
+Ans- Redux is a state management library, while React-redux is a library that connects Redux to React. React
+
+
+Now How to start 
+================
+### Step 1: Install Redux Toolkit
+### step 2: make a store (Every Application have one store)
+In the store
+import configureStore
+from @reduxjs/toolkit
+const store = configureStore()
+### Step 3: Create a reducer
+### Step 4: Create a slice
+in the slice 
+import { createSlice } from '@reduxjs/toolkit'
+const userSlice = createSlice
+### Step 5: Connect the store to the component
+### Step 6: Dispatch an action
+
+### step 3: create a reducer (Every reducer have one action)
+### step 4: create an action (Every action have one payload)
+### step 5: connect the store to the component
+### step 6: dispatch the action to the store
+### step 7: use the state in the component
+================
